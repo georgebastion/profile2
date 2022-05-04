@@ -1,0 +1,48 @@
+.services{
+    padding: 0 3rem 0 3rem;
+    display: flex;
+    height: 90vh;
+    margin-bottom: 8rem;
+    margin-top: 13rem;
+    position: relative;
+    justify-content: space-evenly;
+
+}
+
+.awesome{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.awesome>:nth-child(1){
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: var(--black);
+}
+
+.awesome>:nth-child(2){
+    font-size: 2rem;
+    font-weight: bold;
+    color: var(--orange);
+}
+.awesome>:nth-child(3){
+    font-size: 14pxrem;
+    color: var(--gray);
+    margin-top: .9rem;
+}
+.s-button{
+    width: 9rem;
+    height: 2rem;
+    margin-top: 1rem;
+
+}
+.right{
+    display: flex;
+    position: relative;
+}
+
+.r-cards{
+    margin-top: 5rem;
+    
+}
