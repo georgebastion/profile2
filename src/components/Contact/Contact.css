@@ -32,13 +32,13 @@ form{
 }
 .blur3{
     position: absolute;
-    height: 10rem;
+    height:10rem;
     width: 20rem;
     border-radius: 50%;
     background: #edd0ff;
     filter: blur(50px);
     z-index: -9;
-    margin-top: 10rem;
+    margin-top: 5rem;
 
     
 }
@@ -46,9 +46,11 @@ input{
     margin-bottom: .8rem;
     border: 3px solid var(--orange);
     border-radius: 5px;
+    outline: none;
 }
 textarea{
     margin-bottom: .8rem;
     border: 3px solid var(--orange);
     border-radius: 5px;
+    outline: none;
 }
