@@ -54,3 +54,9 @@ textarea{
     border-radius: 5px;
     outline: none;
 }
+
+@media screen and (max-width:600px){
+    .contactme{
+        flex-direction: column;
+    }
+}

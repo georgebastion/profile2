@@ -27,7 +27,7 @@
     color: var(--orange);
 }
 .awesome>:nth-child(3){
-    font-size: 14pxrem;
+    font-size: 14px;
     color: var(--gray);
     margin-top: .9rem;
 }
@@ -45,4 +45,15 @@
 .r-cards{
     margin-top: 5rem;
     
+}
+
+
+@media screen and (max-width:600px){
+    .services{
+        margin-top: 32rem;
+        flex-direction: column;
+    }
+    .right{
+        flex-direction: column;
+    }
 }

@@ -81,3 +81,20 @@
     background: #F5C32C;
 
 }
+
+
+@media screen and (max-width:600px){
+    .experience1{
+        grid-template-columns: 1fr;
+    }
+    .r-side{
+        left: 0 !important;
+    }
+    .awesome{
+        text-align: center;
+    }
+    .mainCircle{
+        left: 0;
+        transform: scale(.8);
+    }
+}

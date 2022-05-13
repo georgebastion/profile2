@@ -35,12 +35,21 @@
 .circle::before{
     border-radius: 100%;
     content: '';
-    background-image: linear-gradient(to bottom, #87e6fb 0%, #ffc05c 100%);
+    background-image: linear-gradient(to bottom, #87e6fb 0%, #ffc05c 100%) !important;
     top: -8px;
     bottom: -8px;
     left: -8px;
     right: -8px;
     position: absolute;
     z-index: -9;
+
+}
+
+@media screen and (max-width:600px){
+    .experience{
+        margin-top: 15rem;
+        transform: scale(.7);
+    }
+
 
 }

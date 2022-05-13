@@ -10,7 +10,7 @@ import 'swiper/swiper-bundle.css'
 
 const Portfolio = () => {
     return (
-        <div className="portfolio">
+        <div className="portfolio" id='Portfolio'>
             <span>Recent Projects</span>
             <span>Portfolio</span>
 

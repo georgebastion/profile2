@@ -55,7 +55,7 @@ const profile =[
 
 const Portfolio = () => {
     return (
-        <div className="testimonials">
+        <div className="testimonials" id='testimonials'>
             <span>Client's Feedback</span>
             <span>Testimonials</span>
             <div className="blur2 t-blur" style={{background:"pink"}}></div>

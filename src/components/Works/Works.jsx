@@ -5,8 +5,13 @@ import Fiverr from '../../img/fiverr.png'
 import Amazon from '../../img/amazon.png'
 import Shopify from '../../img/Shopify.png'
 import Facebook from '../../img/Facebook.png'
-
+import { useContext } from 'react';
+import { themeContext } from '../../Context';
+import { motion } from 'framer-motion';
 const Works = () => {
+    const transitionn={duration:5,type:'spring'}
+    const theme = useContext(themeContext);
+    const darkMode = theme.state.darkMode;
     return (
         <div className="experience1">
             <div className="awesome">
@@ -19,7 +24,13 @@ const Works = () => {
                     <button className="button s-button" >Hire me</button>
                 </a>
             </div>
-            <div className="r-side">
+            <motion.div
+            initial={{rotate:90}}
+            whileInView={{rotate:0}}
+            viewport={{margin:'-45px'}}
+            transition={transitionn}
+
+            className="r-side">
                 <div className="mainCircle">
                     <div className="secCircle">
                         <img src={Fiverr} alt="" />
@@ -39,7 +50,7 @@ const Works = () => {
                 </div>
                 <div className="backCircle blueCircle"></div>
                 <div className="backCircle yellowCircle"> </div>
-            </div>
+            </motion.div>
         </div>
        
     );
